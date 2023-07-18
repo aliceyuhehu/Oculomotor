@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BB40CBF2A6612EE00026F7C /* OculomotorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB40CBE2A6612EE00026F7C /* OculomotorApp.swift */; };
+		0BB40CC12A6612EE00026F7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB40CC02A6612EE00026F7C /* ContentView.swift */; };
+		0BB40CC32A6612F000026F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB40CC22A6612F000026F7C /* Assets.xcassets */; };
+		0BB40CC72A6612F000026F7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB40CC62A6612F000026F7C /* Preview Assets.xcassets */; };
+		0BB40CD12A6612F000026F7C /* OculomotorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB40CD02A6612F000026F7C /* OculomotorTests.swift */; };
+		0BB40CDB2A6612F000026F7C /* OculomotorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB40CDA2A6612F000026F7C /* OculomotorUITests.swift */; };
+		0BB40CDD2A6612F000026F7C /* OculomotorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB40CDC2A6612F000026F7C /* OculomotorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BB40CCD2A6612F000026F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BB40CB32A6612EE00026F7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BB40CBA2A6612EE00026F7C;
+			remoteInfo = Oculomotor;
+		};
+		0BB40CD72A6612F000026F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BB40CB32A6612EE00026F7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BB40CBA2A6612EE00026F7C;
+			remoteInfo = Oculomotor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BB40CBB2A6612EE00026F7C /* Oculomotor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oculomotor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB40CBE2A6612EE00026F7C /* OculomotorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OculomotorApp.swift; sourceTree = "<group>"; };
+		0BB40CC02A6612EE00026F7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0BB40CC22A6612F000026F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BB40CC42A6612F000026F7C /* Oculomotor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Oculomotor.entitlements; sourceTree = "<group>"; };
+		0BB40CC62A6612F000026F7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BB40CCC2A6612F000026F7C /* OculomotorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OculomotorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB40CD02A6612F000026F7C /* OculomotorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OculomotorTests.swift; sourceTree = "<group>"; };
+		0BB40CD62A6612F000026F7C /* OculomotorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OculomotorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB40CDA2A6612F000026F7C /* OculomotorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OculomotorUITests.swift; sourceTree = "<group>"; };
+		0BB40CDC2A6612F000026F7C /* OculomotorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OculomotorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BB40CB82A6612EE00026F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB40CC92A6612F000026F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB40CD32A6612F000026F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BB40CB22A6612EE00026F7C = {
+			isa = PBXGroup;
+			children = (
+				0BB40CBD2A6612EE00026F7C /* Oculomotor */,
+				0BB40CCF2A6612F000026F7C /* OculomotorTests */,
+				0BB40CD92A6612F000026F7C /* OculomotorUITests */,
+				0BB40CBC2A6612EE00026F7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BB40CBC2A6612EE00026F7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BB40CBB2A6612EE00026F7C /* Oculomotor.app */,
+				0BB40CCC2A6612F000026F7C /* OculomotorTests.xctest */,
+				0BB40CD62A6612F000026F7C /* OculomotorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BB40CBD2A6612EE00026F7C /* Oculomotor */ = {
+			isa = PBXGroup;
+			children = (
+				0BB40CBE2A6612EE00026F7C /* OculomotorApp.swift */,
+				0BB40CC02A6612EE00026F7C /* ContentView.swift */,
+				0BB40CC22A6612F000026F7C /* Assets.xcassets */,
+				0BB40CC42A6612F000026F7C /* Oculomotor.entitlements */,
+				0BB40CC52A6612F000026F7C /* Preview Content */,
+			);
+			path = Oculomotor;
+			sourceTree = "<group>";
+		};
+		0BB40CC52A6612F000026F7C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0BB40CC62A6612F000026F7C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0BB40CCF2A6612F000026F7C /* OculomotorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BB40CD02A6612F000026F7C /* OculomotorTests.swift */,
+			);
+			path = OculomotorTests;
+			sourceTree = "<group>";
+		};
+		0BB40CD92A6612F000026F7C /* OculomotorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0BB40CDA2A6612F000026F7C /* OculomotorUITests.swift */,
+				0BB40CDC2A6612F000026F7C /* OculomotorUITestsLaunchTests.swift */,
+			);
+			path = OculomotorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BB40CBA2A6612EE00026F7C /* Oculomotor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BB40CE02A6612F000026F7C /* Build configuration list for PBXNativeTarget "Oculomotor" */;
+			buildPhases = (
+				0BB40CB72A6612EE00026F7C /* Sources */,
+				0BB40CB82A6612EE00026F7C /* Frameworks */,
+				0BB40CB92A6612EE00026F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oculomotor;
+			productName = Oculomotor;
+			productReference = 0BB40CBB2A6612EE00026F7C /* Oculomotor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BB40CCB2A6612F000026F7C /* OculomotorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BB40CE32A6612F000026F7C /* Build configuration list for PBXNativeTarget "OculomotorTests" */;
+			buildPhases = (
+				0BB40CC82A6612F000026F7C /* Sources */,
+				0BB40CC92A6612F000026F7C /* Frameworks */,
+				0BB40CCA2A6612F000026F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BB40CCE2A6612F000026F7C /* PBXTargetDependency */,
+			);
+			name = OculomotorTests;
+			productName = OculomotorTests;
+			productReference = 0BB40CCC2A6612F000026F7C /* OculomotorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BB40CD52A6612F000026F7C /* OculomotorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BB40CE62A6612F000026F7C /* Build configuration list for PBXNativeTarget "OculomotorUITests" */;
+			buildPhases = (
+				0BB40CD22A6612F000026F7C /* Sources */,
+				0BB40CD32A6612F000026F7C /* Frameworks */,
+				0BB40CD42A6612F000026F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BB40CD82A6612F000026F7C /* PBXTargetDependency */,
+			);
+			name = OculomotorUITests;
+			productName = OculomotorUITests;
+			productReference = 0BB40CD62A6612F000026F7C /* OculomotorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BB40CB32A6612EE00026F7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0BB40CBA2A6612EE00026F7C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0BB40CCB2A6612F000026F7C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0BB40CBA2A6612EE00026F7C;
+					};
+					0BB40CD52A6612F000026F7C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0BB40CBA2A6612EE00026F7C;
+					};
+				};
+			};
+			buildConfigurationList = 0BB40CB62A6612EE00026F7C /* Build configuration list for PBXProject "Oculomotor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BB40CB22A6612EE00026F7C;
+			productRefGroup = 0BB40CBC2A6612EE00026F7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BB40CBA2A6612EE00026F7C /* Oculomotor */,
+				0BB40CCB2A6612F000026F7C /* OculomotorTests */,
+				0BB40CD52A6612F000026F7C /* OculomotorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BB40CB92A6612EE00026F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB40CC72A6612F000026F7C /* Preview Assets.xcassets in Resources */,
+				0BB40CC32A6612F000026F7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB40CCA2A6612F000026F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB40CD42A6612F000026F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BB40CB72A6612EE00026F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB40CC12A6612EE00026F7C /* ContentView.swift in Sources */,
+				0BB40CBF2A6612EE00026F7C /* OculomotorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB40CC82A6612F000026F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB40CD12A6612F000026F7C /* OculomotorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB40CD22A6612F000026F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB40CDB2A6612F000026F7C /* OculomotorUITests.swift in Sources */,
+				0BB40CDD2A6612F000026F7C /* OculomotorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BB40CCE2A6612F000026F7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BB40CBA2A6612EE00026F7C /* Oculomotor */;
+			targetProxy = 0BB40CCD2A6612F000026F7C /* PBXContainerItemProxy */;
+		};
+		0BB40CD82A6612F000026F7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BB40CBA2A6612EE00026F7C /* Oculomotor */;
+			targetProxy = 0BB40CD72A6612F000026F7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BB40CDE2A6612F000026F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BB40CDF2A6612F000026F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0BB40CE12A6612F000026F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Oculomotor/Oculomotor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Oculomotor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ptapps.Oculomotor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BB40CE22A6612F000026F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Oculomotor/Oculomotor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Oculomotor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ptapps.Oculomotor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0BB40CE42A6612F000026F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ptapps.OculomotorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oculomotor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Oculomotor";
+			};
+			name = Debug;
+		};
+		0BB40CE52A6612F000026F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ptapps.OculomotorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oculomotor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Oculomotor";
+			};
+			name = Release;
+		};
+		0BB40CE72A6612F000026F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ptapps.OculomotorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Oculomotor;
+			};
+			name = Debug;
+		};
+		0BB40CE82A6612F000026F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ptapps.OculomotorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Oculomotor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BB40CB62A6612EE00026F7C /* Build configuration list for PBXProject "Oculomotor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB40CDE2A6612F000026F7C /* Debug */,
+				0BB40CDF2A6612F000026F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BB40CE02A6612F000026F7C /* Build configuration list for PBXNativeTarget "Oculomotor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB40CE12A6612F000026F7C /* Debug */,
+				0BB40CE22A6612F000026F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BB40CE32A6612F000026F7C /* Build configuration list for PBXNativeTarget "OculomotorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB40CE42A6612F000026F7C /* Debug */,
+				0BB40CE52A6612F000026F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BB40CE62A6612F000026F7C /* Build configuration list for PBXNativeTarget "OculomotorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB40CE72A6612F000026F7C /* Debug */,
+				0BB40CE82A6612F000026F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BB40CB32A6612EE00026F7C /* Project object */;
+}
